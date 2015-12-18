@@ -1,0 +1,149 @@
+@CHARSET "ISO-8859-1";
+html
+{
+    overflow-y:scroll;	
+}
+body
+{
+	font: 13px Arial, Helvetica, sans-serif;
+}
+.strip
+{
+	font-family:arial;
+	font-weight:bold;
+	padding:6px 8px;
+	text-align:left;
+	background-color:#CEE22A;
+}
+.strip_s
+{
+	font-family:arial;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+	text-align:left;
+	background-color:#CEE22A;
+}
+.loginform
+{
+	background-color:#ffffff;
+	border:1px solid #CEE22A;
+}
+.loginfont
+{
+	font-size:smaller;
+	font-family:Arial,Helvetica,sans-serif;
+	
+}
+.textbox-app
+{
+	background-color:#ffffa2;
+	border: 1px solid #dddddd;
+	color:#333333;
+	-moz-border-radius:4px 4px 4px 4px;
+}
+.textbox-error
+{
+	background-color:#ff0000;
+	border: 1px solid #cd0a0a;
+	color:#ffffff;
+	-moz-border-radius:4px 4px 4px 4px;
+}
+ol li
+{
+	list-style:none outside none;
+	border:0;
+	margin:0;
+	padding:0;
+}
+li.r
+{
+	font-family:arial,sans-serif;
+	font-size:small;
+	margin-bottom:14px;
+	margin-top:0;
+}
+.highlight
+{
+	border:1px solid #b3b3b3;
+	color:#353535;
+}
+.glmi_t
+{
+	font:30px "Times New Roman",Georgia,Serif;
+	color:#ffffff;
+	
+	margin-right:10px;
+}
+.searchbox-td
+{
+	border-bottom:1px solid #999999;
+	padding-right:16px;
+}
+.searchbox
+{
+	-moz-box-sizing:content-box;
+	background:none repeat scroll 0 0 #ffffff;
+	color:#000000;
+	font:18px arial,sans-serif;
+	padding:4px 0 0;
+	height:26px;
+	border-style:solid solid none;
+	border-width:1px 1px medium;
+	border-color:#cccccc #cccccc -moz-use-text-color;
+	padding-left:6px;
+	padding-right:10px;
+	vertical-align:top;
+	width:100%;
+	float:left;
+	
+	border-top:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	
+	
+}
+.searchbtn
+{
+	background-position:center bottom;
+	border:medium none;
+	color:#000000;
+	cursor:pointer;
+	font:15px arial,sans-serif;
+	height:30px;
+	margin:0;
+	vertical-align:top;
+}
+.searchbtn-inner
+{
+	background:none repeat scroll 0 0 #eeeeee;
+	border-color:#cccccc #999999 #999999 #cccccc;
+	border-right:1px solid #999999;
+	border-style:solid;
+	border-width:1px;
+	height:30px;
+}
+.searchbtn-outter
+{
+	border-right:1px solid #e7e7e7;
+	position:relative;
+	height:32px;
+	z-index:100;
+}
+.header {
+        background-color:#cee22a;
+        background-image:url(../img/header_bg.gif);
+        background-repeat:repeat-x;
+        height:100px;
+        width:95%;
+        margin:auto;
+}
+.tip
+{
+	margin-top:1em;
+	border:1px solid #b3b3b3;
+	color:#353535;
+	background-color:#ffffd9;
+	padding:0.5em;
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Great Lakes Model Inventory Search Page</title>
+<link href="./pube.css" rel="stylesheet" type="text/css" />
+<style>
+body{
+	background-color:#FFFFFF;
+}
+.bsearchwrapper {
+width:700px; /*follow your image's size*/
+height:469px;/*follow your image's size*/
+background-image:url(../img/large_searchbg.jpg);
+background-repeat:no-repeat; /*important*/
+padding:0px;
+margin:0px;
+position:relative; /*important*/
+border:1px solid #d0d9dd;
+}
+.sfoot
+{
+   	width:700px; 
+	height:40px;
+	background:none repeat scroll 0 0 #d8dfe3;
+	border:1px solid #d0d9dd;
+}
+</style>
+<script type="text/javascript">
+function keycheck()
+{
+	var id=document.getElementById('txt_sbox');
+	if(id!=null)
+	{
+		if(id.value!='')return true;
+		else return false;
+	}
+	return false;
+}
+</script>
+</head>
+<body onload="javascript:document.getElementById('txt_sbox').focus();">
+<div align="center" style="margin-top:50px;padding-top:0;">
+	<div align="center" class="bsearchwrapper">
+        <form name="f" action="search.glos" method="GET" onsubmit="return keycheck();">
+	    	<table cellspacing="0" cellpadding="0" border="0" width="60%" style="border-bottom:1px solid #e7e7e7;padding:220px 0pt 0pt;">
+												<tr>
+													<td class="searchbox-td" style="width:100%;">
+														<input type="text" id="txt_sbox" value="" maxlength="255" size="40" name="key" class="searchbox" style="background-color:#FFFFFF;"/>
+														<input type="hidden" value="10" name="l"/>
+														<input type="hidden" value="0" name="o"/>
+														<input type="hidden" value="0" name="f"/>
+														<input type="hidden" value="" name="of"/>
+													</td>
+													<td>
+														<div class="searchbtn-outter">
+															<div class="searchbtn-inner">
+																<input class="searchbtn" type="submit" value="Search" style="background-color:#005daa;color:#ffffff;font-size:14px;font-weight:bold;"/>
+															</div>
+														</div>
+													</td>
+												</tr>
+			</table>
+		</form>
+		<div style="padding-top:180px;" align="center">
+			<a href="http://glos.us/glosmi/pub/"><strong>GLMI Home</strong></a>
+            <strong>|</strong>
+			<a href="http://glos.us/about/index.php"><strong>About GLOS</strong></a><strong> | <a href="mailto:comments@glos.us?subject=Comment from GLMI Website">Contact GLOS</a></strong>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

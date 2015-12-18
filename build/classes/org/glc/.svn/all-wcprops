@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repos/glosmi/!svn/ver/51/trunk/src/org/glc
+END
+IRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/IRequestHandler.java
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/Logger.java
+END
+IErrorHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/IErrorHandler.java
+END
+ISecurity.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/ISecurity.java
+END
+ILiteralProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/ILiteralProvider.java
+END
+DefaultTimeZoneImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/DefaultTimeZoneImpl.java
+END
+ITimeZoneAware.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/ITimeZoneAware.java
+END
+IDateFormater.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/IDateFormater.java
+END
+StartPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/StartPoint.java
+END
+IValidParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/IValidParam.java
+END
+DBConnFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/DBConnFactory.java
+END
+DefaultLiteralProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/DefaultLiteralProvider.java
+END
+DefaultErrorHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/DefaultErrorHandler.java
+END
+IJSONEnabled.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/glosmi/!svn/ver/18/trunk/src/org/glc/IJSONEnabled.java
+END

@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/glosmi/!svn/ver/51/trunk/src/us/glos/mi/servlets
+END
+OrgRequestServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/OrgRequestServlet.java
+END
+ModOptServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/ModOptServlet.java
+END
+AppOptServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/AppOptServlet.java
+END
+AppQuickSearchServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/AppQuickSearchServlet.java
+END
+SearchServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/glosmi/!svn/ver/55/trunk/src/us/glos/mi/servlets/SearchServlet.java
+END
+AppModSearchServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/glosmi/!svn/ver/42/trunk/src/us/glos/mi/servlets/AppModSearchServlet.java
+END
+ModAuditServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/ModAuditServlet.java
+END
+UserLoginServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/glosmi/!svn/ver/30/trunk/src/us/glos/mi/servlets/UserLoginServlet.java
+END
+AppAuditServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/glosmi/!svn/ver/42/trunk/src/us/glos/mi/servlets/AppAuditServlet.java
+END
+PeopleDisplayServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/glosmi/!svn/ver/26/trunk/src/us/glos/mi/servlets/PeopleDisplayServlet.java
+END
+AppDraftAdminServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/AppDraftAdminServlet.java
+END
+UserManServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/UserManServlet.java
+END
+OrgDisplayServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/OrgDisplayServlet.java
+END
+ContactSearchServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/ContactSearchServlet.java
+END
+ModDraftOptServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/ModDraftOptServlet.java
+END
+AppCheckDeveloperServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/AppCheckDeveloperServlet.java
+END
+UserAdminServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/glosmi/!svn/ver/51/trunk/src/us/glos/mi/servlets/UserAdminServlet.java
+END
+UserAddServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/UserAddServlet.java
+END
+FileAdminServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/FileAdminServlet.java
+END
+ModAdminServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/ModAdminServlet.java
+END
+AppAdminServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/AppAdminServlet.java
+END
+UserAvailServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/UserAvailServlet.java
+END
+RefOptServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/RefOptServlet.java
+END
+ContactAdminServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/ContactAdminServlet.java
+END
+UserSearchServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/UserSearchServlet.java
+END
+ModDisplayServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/glosmi/!svn/ver/26/trunk/src/us/glos/mi/servlets/ModDisplayServlet.java
+END
+AppDisplayServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/AppDisplayServlet.java
+END
+ModDraftAdminServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/ModDraftAdminServlet.java
+END
+OrgOptServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/OrgOptServlet.java
+END
+ModCheckStatusServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/ModCheckStatusServlet.java
+END
+AppCheckStatusServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/AppCheckStatusServlet.java
+END
+ModCheckDeveloperServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/ModCheckDeveloperServlet.java
+END
+AppDraftOptServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/AppDraftOptServlet.java
+END
+FileUploadServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/servlets/FileUploadServlet.java
+END

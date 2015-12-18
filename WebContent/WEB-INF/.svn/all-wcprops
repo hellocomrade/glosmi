@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/glosmi/!svn/ver/36/trunk/WebContent/WEB-INF
+END
+app-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/glosmi/!svn/ver/48/trunk/WebContent/WEB-INF/app-config.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/glosmi/!svn/ver/19/trunk/WebContent/WEB-INF/web.xml
+END

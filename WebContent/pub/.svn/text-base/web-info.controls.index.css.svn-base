@@ -1,0 +1,125 @@
+html
+{
+    overflow-y:scroll;	
+}
+body {
+	font: 12px Arial, Helvetica, sans-serif;
+	background-color: #FDFDF6;
+	padding: 0;
+	margin: 0;
+}
+img {
+	border: none;
+}
+.dock {
+	position: absolute; 
+	height: 50px; 
+	left:0;
+	width:95%;
+}
+
+/* dock - top */
+.dock-container {
+	position: absolute;
+	height: 50px;
+	top:40px;
+	padding-left: 20px;
+	
+}
+a.dock-item {
+	display: block;
+	width: 40px;
+	color: #000;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.dock-item img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+.dock-item span {
+	display: none; 
+	padding-left: 20px;
+}
+/* dock2 - bottom */
+#dock2 {
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	left: 0px;
+}
+.dock-container2 {
+	position: absolute;
+	height: 50px;
+	background: url(../img/fisheye/dock-bg.gif);
+	padding-left: 20px;
+}
+a.dock-item2 {
+	display: block; 
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 40px; 
+	color: #000; 
+	bottom: 0px; 
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-item2 img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+
+
+/*jquery sortable*/
+.column { width: 320px;  padding-bottom: 100px; }
+
+.portlet { margin: 0 1em 1em 0; }
+.portlet-header { margin: 0.3em; padding-bottom: 4px; padding-left: 0.2em; }
+.portlet-header .ui-icon { float: right; }
+.portlet-content { padding: 0.4em; }
+.ui-sortable-placeholder { border: 1px dotted black; visibility: visible !important; height: 50px !important; }
+.ui-sortable-placeholder * { visibility: hidden; }
+
+
+.textbox-app
+{
+	background-color:#ffffa2;
+	border: 1px solid #dddddd;
+	color:#333333;
+	-moz-border-radius:4px 4px 4px 4px;
+}
+.textbox-error
+{
+	background-color:#ff0000;
+	border: 1px solid #cd0a0a;
+	color:#ffffff;
+	-moz-border-radius:4px 4px 4px 4px;
+}
+.tip
+{
+	margin-top:1em;
+	border:1px solid #b3b3b3;
+	color:#353535;
+	background-color:#ffffd9;
+	padding:0.5em;
+}
+.head-container
+{
+	height:100px;
+	background-color:#3d71cc;
+	background-image:url(../img/2tone_bg.gif);
+	background-repeat:repeat-x;
+	width: 100%; height:100px;
+	padding:0px; 2px; 2px; 2px;
+	margin-left:0px;
+	
+}

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repos/glosmi/!svn/ver/54/trunk/src/us/glos/mi
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/Test.java
+END
+UserPrivilegeMask.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/UserPrivilegeMask.java
+END
+MIUserInputValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/MIUserInputValidator.java
+END
+MIUserValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/glosmi/!svn/ver/42/trunk/src/us/glos/mi/MIUserValidator.java
+END
+FileHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/FileHandler.java
+END
+MIStartPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/MIStartPoint.java
+END

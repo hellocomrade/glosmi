@@ -1,0 +1,397 @@
+@CHARSET "ISO-8859-1";
+html
+{
+    overflow-y:scroll;	
+}
+
+body
+{
+	background:none repeat scroll 0 0 #ffffff;
+}
+
+body,td,th, div, ul, li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	color: #000;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+h2, h3{font-family:Helvetica, Arial, sans-serif;
+color:#039fdb}
+
+h2 {font-size:20px; line-height:22px}
+h3 {color:#8FA4D3; font-size:18px; margin-bottom:-10px;}
+form, table {padding:0px;margin:0px}
+
+a:link {
+	color: #005daa;
+}
+a:visited {
+	color: #004277;
+}
+a:hover {
+	color: #039fdb;
+}
+
+
+/* page sections */
+#pagecontainer {width:1050px; margin-top:10px}
+#header  {
+	background-color:#3d71cc;
+	background-image:url(../img/2tone_bg.gif);
+	background-repeat:repeat-x;
+	width: 100%; height:100px;
+	padding:0px; 2px; 2px; 2px;
+	margin-left:0px;
+	}	
+#contentblock {margin-left:15px; margin-right:15px}
+#leftcol {width:380px}
+#middlecol {float:right;padding-bottom:10px;padding-left:15px;width:380px}
+#navcontainer {padding-left:15px; padding-bottom:15px;padding-right:13px;float:right;}
+#navbox, #footer{
+	background-color:#62AFCD;
+	background-image:url(../img/box_bg.gif); background-repeat:repeat-x;
+	width:216px;
+	padding:6px;
+	margin-top:15px; 
+	z-index:2
+}
+
+#searchwrapper {
+width:380px; /*follow your image's size*/
+height:233px;/*follow your image's size*/
+background-image:url(../img/search_photobg.jpg);
+background-repeat:no-repeat; /*important*/
+padding:0px;
+margin:0px;
+position:relative; /*important*/
+}
+#searchwrapper form { display:inline ; }
+
+
+.navcontent, .footercontent  {
+border:solid 1px #fff; 
+padding:8px;
+font-family:Helvetica, Arial, sans-serif;
+
+}
+
+.footercontent, .footercontent a {font-size:10px}
+
+/* various link styles */
+
+.footercontent a:link, .footercontent a:visited, .footercontent a  {
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+.footercontent a:hover {font-weight:bold; text-decoration:underline; color:#3d71cc}
+
+ a.navstyle:link, a.navcontent:visited {
+font-family:Helvetica, Arial, sans-serif;
+font-weight:bold;
+font-size:16px;
+text-decoration:none;
+	background-color:#FFF;
+	padding:2px;
+	color:#8FA4D3;
+}  
+
+a.navstyle:hover {
+	background-color:#36C;
+	padding:2px;
+	color:#FFF;
+	}   
+a.headersearch:link, a.headersearch:visited {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        font-size:11px;
+        text-decoration:none;
+        color:#FFF;
+        line-height:9px;margin-top:-5px;
+}
+
+a.headersearch:hover {
+        text-decoration:underline}
+
+
+/* boxed accent links, for in-body button links ("prev/next/more") */
+a.box:link, a.box:visited, a.plainbox:link, a.plainbox:visited {
+	font-size:12.5px;
+	color: White;
+	border: 1px solid #005daa;
+	padding:2px 4px 2px 4px;
+	text-decoration:none;
+	/*font-weight:bold; */
+	background-color: #005daa;
+	vertical-align: middle;
+	border: 1px solid #005daa;
+	}
+
+a.box:hover {
+	color: #005daa;
+	background-color: #FFF;
+	border: 1px solid #005daa;
+	padding:2px 4px 2px 4px;
+	text-decoration: none;
+	font-weight:bold;
+}	
+
+#header a {border:none;}
+
+	
+.strip
+{
+	font-family:arial;
+	font-weight:bold;
+	padding:6px 8px;
+	text-align:left;
+	background-color:#8FA4D3;
+}
+.strip_s
+{
+	font-family:arial;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+	text-align:left;
+	background-color:#8FA4D3;
+}
+.loginform
+{
+	background-color:#ffffff;
+	border:1px solid #8FA4D3;
+}
+.loginfont
+{
+	font-size:12px;
+	font-family:Arial,Helvetica,sans-serif;
+	
+}
+.textbox-app
+{
+	background-color:#ffffff;
+	border: 1px solid #dddddd;
+	color:#333333;
+	/*-moz-border-radius:4px 4px 4px 4px;*/
+}
+.textbox-error
+{
+	background-color:#ff0000;
+	border: 1px solid #cd0a0a;
+	color:#ffffff;
+	-moz-border-radius:4px 4px 4px 4px;
+}
+ol li
+{
+	list-style:none outside none;
+	border:0;
+	margin:0;
+	padding:0;
+}
+li.r
+{
+	font-family:arial,sans-serif;
+	font-size:small;
+	margin-bottom:14px;
+	margin-top:0;
+}
+.highlight
+{
+	border:1px solid #b3b3b3;
+	color:#353535;
+}
+.glmi_t
+{
+	font:30px "Times New Roman",Georgia,Serif;
+	color:#ffffff;
+	
+	margin-right:10px;
+}
+.searchbox-td
+{
+	border-bottom:1px solid #999999;
+	padding-right:16px;
+}
+.searchbox
+{
+	-moz-box-sizing:content-box;
+	background:none repeat scroll 0 0 #ffffff;
+	color:#000000;
+	font:18px arial,sans-serif;
+	padding:4px 0 0;
+	height:26px;
+	border-style:solid solid none;
+	border-width:1px 1px medium;
+	border-color:#cccccc #cccccc -moz-use-text-color;
+	padding-left:6px;
+	padding-right:10px;
+	vertical-align:top;
+	width:100%;
+	float:left;
+	
+	border-top:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	
+	
+}
+.searchbtn
+{
+	background-position:center bottom;
+	border:medium none;
+	color:#000000;
+	cursor:pointer;
+	font:15px arial,sans-serif;
+	height:30px;
+	margin:0;
+	vertical-align:top;
+}
+.searchbtn-inner
+{
+	background:none repeat scroll 0 0 #eeeeee;
+	border-color:#cccccc #999999 #999999 #cccccc;
+	border-right:1px solid #999999;
+	border-style:solid;
+	border-width:1px;
+	height:30px;
+}
+.searchbtn-outter
+{
+	border-right:1px solid #e7e7e7;
+	position:relative;
+	height:32px;
+	z-index:100;
+}
+
+.header {
+        background-color:#8FA4D3;
+        background-image:url(../img/header_bg.gif);
+        background-repeat:repeat-x;
+        height:100px;
+        width:95%;
+        margin:auto;
+}
+
+.header_searchbtn, .photosearch_btn, .genbtn {
+	color: White;
+	background-color: #005daa;
+	vertical-align: middle;
+	border: 1px solid #005daa;
+	height: 20px;
+	font-size:12.5px;
+	}
+
+.header_searchbox, .photosearch
+{
+	-moz-box-sizing:content-box;
+	background:none repeat scroll 0 0 #ffffff;
+	color:#999;
+	font:11px arial,sans-serif;
+	padding:0px 0 0;
+	height:20px;
+	border-style:solid solid none;
+	border-width:1px 1px medium;
+	border-color:#cccccc #cccccc -moz-use-text-color;
+	padding-left:3px;
+	padding-right:3px;
+	vertical-align:middle;
+	float:left;
+	border-top:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	}
+	
+.photosearch, .photosearch_btn {
+	float:none;
+	margin-top:160px;width:200px;margin-left:60px
+	}
+	
+.headersearch_txt{
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:11px;
+	padding-top:4px;
+}
+
+.search_txt a:link, .headersearch_txt a:visited {color:#FFF; text-decoration:none}
+.search_txt a:hover {color:#fff; text-decoration:underline}
+
+.tip
+{
+	margin-top:1em;
+	border:1px solid #b3b3b3;
+	color:#353535;
+	background-color:#ffffff;
+	padding:0.5em;
+}
+
+/* reg form styles */
+.textlabel
+{
+        font-weight:bold;
+        font-family:Arial,Helvetica,sans-serif;
+        font-size:12px;
+}
+.ffont
+{
+	font-size:12px;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+.textbox-error
+{
+        background-color:#ff0000;
+        border: 1px solid #cd0a0a;
+        color:#ffffff;
+        -moz-border-radius:4px 4px 4px 4px;
+}
+
+.warn
+{
+        color:red;
+}
+#headersearchwrapper {
+	width:254px; /*follow your image's size*/
+	height:100px;/*follow your image's size*/
+	background-image:url(../img/wavephoto.gif);
+	background-repeat:no-repeat; /*important*/
+	padding:0px;
+	margin:0px;
+	position:relative; /*important*/
+}
+#searchwrapper form, #headersearchwrapper form { display:inline ; }
+.header_searchbox, .photosearch, .hphotosearch
+{
+        -moz-box-sizing:content-box;
+        background:none repeat scroll 0 0 #ffffff;
+        color:#999;
+        font:11px arial,sans-serif;
+        padding:0px 0 0;
+        height:20px;
+        border-style:solid solid none;
+        border-width:1px 1px medium;
+        border-color:#cccccc #cccccc -moz-use-text-color;
+        padding-left:3px;
+        padding-right:3px;
+        vertical-align:middle;
+        float:left;
+        border-top:1px solid #cccccc;
+        border-left:1px solid #cccccc;
+        border-right:1px solid #cccccc;
+}
+.hphotosearch, .hphotosearch_btn {
+        float:none;
+        margin-top:57px;width:165px;margin-left:2px
+}
+
+.photosearch_btn, .hphotosearch_btn {width:auto;margin-left:0px}
+
+.headersearch_txt{
+        font-family:Helvetica, Arial, sans-serif;
+        font-size:11px;
+        padding-top:4px;
+}

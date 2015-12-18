@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/glosmi/!svn/ver/27/trunk/src/us/glos/mi/validators
+END
+AppAdminValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/AppAdminValidator.java
+END
+UserAvailValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/UserAvailValidator.java
+END
+ModelValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/ModelValidator.java
+END
+AppDraftValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/AppDraftValidator.java
+END
+ModOptValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/ModOptValidator.java
+END
+AppOptValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/AppOptValidator.java
+END
+UserLoginValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/glosmi/!svn/ver/27/trunk/src/us/glos/mi/validators/UserLoginValidator.java
+END
+ModDraftAdminValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/ModDraftAdminValidator.java
+END
+AppDraftAdminValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/AppDraftAdminValidator.java
+END
+UserManValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/UserManValidator.java
+END
+ReferenceItemValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/ReferenceItemValidator.java
+END
+AppValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/AppValidator.java
+END
+ModelDraftValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/ModelDraftValidator.java
+END
+UserAdminValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/UserAdminValidator.java
+END
+ModAdminValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/validators/ModAdminValidator.java
+END

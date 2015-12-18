@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+version="2.0">
+<tlib-version>1.0</tlib-version>
+<short-name>glc-tag-lib</short-name>
+<tag>
+<description>Date Display Tag</description>
+<name>datedisplay</name>
+<tag-class>org.glc.tags.DateDisplayTag</tag-class>
+<body-content>empty</body-content>
+<attribute>
+    <name>datetime</name>
+    <required>true</required>
+    <rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<attribute>
+    <name>jspath</name>
+    <required>true</required>
+</attribute>
+<attribute>
+    <name>local</name>
+    <required>false</required>
+</attribute>
+</tag>
+<tag>
+<description>States Select Tag</description>
+<name>statesselect</name>
+<tag-class>org.glc.tags.StatesSelectTag</tag-class>
+<body-content>empty</body-content>
+<attribute>
+    <name>selected</name>
+    <rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<attribute>
+    <name>id</name>
+    <required>true</required>
+</attribute>
+<attribute>
+    <name>name</name>
+    <required>true</required>
+    <rtexprvalue>true</rtexprvalue>
+</attribute>
+<attribute>
+    <name>country</name>
+    <required>true</required>
+    <rtexprvalue>true</rtexprvalue>
+</attribute>
+<attribute>
+    <name>cssClass</name>
+</attribute>
+<attribute>
+	<name>hide</name>
+	<required>false</required>
+	<rtexprvalue>true</rtexprvalue>
+</attribute>
+</tag>
+<tag>
+<description>Error Display Tag</description>
+<name>errordisplay</name>
+<tag-class>org.glc.tags.ErrorDisplayTag</tag-class>
+<body-content>empty</body-content>
+<attribute>
+    <name>name</name>
+    <required>true</required>
+    <rtexprvalue>true</rtexprvalue>
+</attribute>
+<attribute>
+    <name>id</name>
+    <required>true</required>
+    <rtexprvalue>true</rtexprvalue>
+</attribute>
+<attribute>
+    <name>cssStyle</name>
+    
+</attribute>
+<attribute>
+    <name>errMsg</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+</attribute>
+</tag>
+</taglib>

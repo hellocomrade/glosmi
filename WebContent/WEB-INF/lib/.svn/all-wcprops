@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/glosmi/!svn/ver/19/trunk/WebContent/WEB-INF/lib
+END
+commons-fileupload-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/glosmi/!svn/ver/19/trunk/WebContent/WEB-INF/lib/commons-fileupload-1.2.2.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/glosmi/!svn/ver/19/trunk/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar
+END
+commons-digester-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/glosmi/!svn/ver/19/trunk/WebContent/WEB-INF/lib/commons-digester-2.0.jar
+END
+commons-io-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/glosmi/!svn/ver/19/trunk/WebContent/WEB-INF/lib/commons-io-1.4.jar
+END
+commons-beanutils-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/glosmi/!svn/ver/19/trunk/WebContent/WEB-INF/lib/commons-beanutils-1.8.0.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/glosmi/!svn/ver/19/trunk/WebContent/WEB-INF/lib/mail.jar
+END
+postgresql-8.4-701.jdbc3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/glosmi/!svn/ver/19/trunk/WebContent/WEB-INF/lib/postgresql-8.4-701.jdbc3.jar
+END

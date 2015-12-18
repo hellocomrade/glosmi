@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/providers
+END
+ModelInfoPersistProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/providers/ModelInfoPersistProvider.java
+END
+IMutableDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/providers/IMutableDataProvider.java
+END
+ThemeDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/providers/ThemeDataProvider.java
+END
+_AgencyDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/providers/_AgencyDataProvider.java
+END
+AgencyDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/providers/AgencyDataProvider.java
+END
+NameValueCacheProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/providers/NameValueCacheProvider.java
+END

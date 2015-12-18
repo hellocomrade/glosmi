@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/db
+END
+SqlHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/db/SqlHelper.java
+END
+SystemStatistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/db/SystemStatistics.java
+END
+DBCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/glosmi/!svn/ver/18/trunk/src/us/glos/mi/db/DBCache.java
+END

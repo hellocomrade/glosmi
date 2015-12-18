@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery1.8/jquery-1.4.2.js"></script>
+<script type="text/javascript">
+var json='{"sEcho":2,"iTotalRecords":67,"iTotalDisplayRecords":67,"aaData":[[41,"Lake Superior Anthropogenic Stressor Model","Model is a spatial database of high-resolution scaleable watersheds containing attributes related to anthropogenic stress (e.g. # point sources, land use, population and road density).","9-Dec","2010-06-07 00:00:00","Approved"],[42,"Generalized Modeling Package 2-D-Hydrodynamics","The system consists of 5 main modules: 1) A hydrological module that computes the rainfall-runoff from rural catchments; 2) A hydrodynamic module &amp;nbsp;that computes discharges and water level variations in rivers and flood plains. &amp;nbsp;The module solves the full dynamic, diffusive or kinematic wave equations as appropriate; 3) A sediment transport module &amp;nbsp;that simulates sediment transport, dune formation, bed level changes and hydraulic resistance; 4) a transport-dispersion module &amp;nbsp;that includes a special description for cohesive sediments; and 5) a water quality module that simulates chemical and biological processes. Constituents Modeled: Hydrodynamics, D.O., BOD, nutrients, phytoplankton, temperature, bacteria, toxics.","","2010-06-07 00:00:00","Approved"],[43,"Modular Three-Dimensional Ground-Water Flow Model","The modular structure of MODFLOW consists of a Main Program and a series of highly-independent subroutines called modules. The modules are grouped in packages. Each package deals with a specific feature of the hydrologic system which is to be simulated such as flow from rivers or flow into drains or with a specific method of solving linear equations which describe the flow system such as the Strongly Implicit Procedure or Preconditioned Conjugate Gradient.","v1.6.02(2009)","2010-06-07 00:00:00","Approved"],[44,"NWRI 9-Box  Water Quality Model for Lake Erie","&lt;div&gt;This phosphorus-oxygen model for Lake Erie is based on the nine boxes consisting of the three basins, each of which has three vertical thermal layers, using a daily time step (Lam et al., 1987). The vertical layer thicknesses change according to the time variation of the thermocline structure as predicted by a 1-D thermocline model (Lam and Schertzer, 1987). Advection processes across the boxes and layers are based on observed data and 3-D lake hydrodynamic model results It considers phosphorus loading, planton &amp;nbsp;uptake and respiration, physical and chemical phosphorus regeneration from sediment, and sediment oxygen demand, etc. It was calibrated with 1978 data, verified with those for 1967-1977 and post-audited for 1979-1982. Relationships between phosphorus loading and dissolved oxygen concentration for Central Basin Hypolimnion were derived for different thermal stratification conditions. Also, analysis of the anoxia conditions in Lake Erie Central Basin was carried out to compare effects of pre- and post-zebra mussel periods using data of 1978, 1984, 1994 and 1997 (Lam et al, 2008).&lt;\/div&gt;","2008","2010-06-07 00:00:00","Approved"],[45,"Ontario Flow Assessment Techniques","OFAT contains the following three main processes: Delineate a watershed using Digital Elevation Models (DEMs); Calculate physiographic and climatic parameters pertaining to the delineated watershed as well as summarize\/mapping\/charting environment-related GIS databases within the watershed; Execute various regional hydrologic models and report\/export the modelling results.","v1.0 (2003)","2010-06-07 00:00:00","Approved"],[46,"Princeton Ocean Model","The Princeton Ocean Model (POM), a simple-to-run yet powerful ocean modeling code that is able to simulate a wide-range of problems: circulation and mixing processes in rivers, estuaries, shelf and slope, lakes, semi-enclosed seas and open and global ocean. &amp;nbsp;POM is a sigma coordinate, free surface ocean model with embedded turbulence and wave sub-models, and wet-dry capability. POM has been and continues to be a pioneering force in ocean research and modeling due to the continued innovative improvements and new developments by its users.","8-Apr","2010-06-07 00:00:00","Approved"],[47,"Population Viability Analysis","The accurate projection of population growth requires a knowledge of the age structure of the population and the survival and fecundity of individuals of each age. &amp;nbsp;This is often achieved using a life table (or matrix) approach in which the demographic parameters include annual rates of survival, growth or change among defined life history stages, and fecundity. &amp;nbsp;Life tables set out the fecundities and probabilities of survival for each age class of individuals in a population and use an \&quot;accounting\&quot; formulation to calculate future population size on the basis of current size and rates of growth, death, and birth. &amp;nbsp;PVAs also incorporate uncertainty due to unknown or unpredictable events by modeling variation in population parameters and estimating probabilities of extinction over specified periods of time, instead of using a single estimate for an unspecified time.","v4.0 (2002)","2010-06-07 00:00:00","Approved"],[48,"The Enhanced Stream Water Quality Model","&lt;div&gt;Model Processes: Temperature, Salinity, BOD-DO, Nitrogen cycle, Phosphorus cycle. &amp;nbsp;Chlorophyll a (is modeled as the indicator of planktonic algae biomass; benthic algae is not considered). Conservative constituent, Nonconservative constituent. &amp;nbsp;First-order kinetics of constituents Uncertainty analysis Method\/Techniques: The QUAL2E model permits simulation of several water quality constituents in a branching stream system using an implicit backward-difference, finite-difference solution to the one-dimensional advective-dispersive equation. &lt;\/div&gt;","v.3 (1987)","2010-06-07 00:00:00","Approved"],[49,"River and Stream Water Quality Model","QUAL2K is a river and stream water quality model that is intended to represent a modernized version of the QUAL2E model (Brown and Barnwell 1987). It simulates conductivity, inorganic suspended solids, dissoved oxygen, slow reacting CBOD, fast reacting CBOD, organic nitrogen, ammonia nitrogen, nitrate nitrogen, organic phosphorus, inorganic phosphorus, phytoplankton, bottom algea, detritus, pathogen, alkalinity and pH.","v2.11b8 (Jan 2009)","2010-06-07 00:00:00","Approved"],[50,"Rate Constant Model for Chemical Dynamics","The model considers three compartments: the atmosphere, a single well-mixed water column a well-mixed surficial sediment layer. The sources of contaminant include land-based discharges and atmospheric deposition. Processes of chemical degradation in the water column and sediment, outflow, sediment-water exchange, and sediment burial are quantified. A simple aquatic food chain model is also included. The model calculates the contaminant concentration in water and sediment. These concentrations are then used as input to the food chain model to compute concentration in the various organisms.","v1.1","2010-06-07 00:00:00","Approved"]]}';
+var obj=$.parseJSON(json);
+//alert(obj.aaData.length);
+
+var url='http://localhost:8080/glos_mi/mod/modadmin.glos?action=list&_=1276184820039&sEcho=2&iColumns=6&sColumns=&iDisplayStart=40&iDisplayLength=10&iSortingCols=1&iSortCol_0=0&sSortDir_0=asc&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true';
+				$.ajax( {
+					"url": url,
+					//"data": data,
+					"success": function(data){alert(data);},
+					"dataType": "json",
+					"cache": false,
+					"error": function (XMLHttpRequest, textStatus, errorThrown) {
+						alert( textStatus );
+					}
+				} );
+			
+</script>
+</head>
+<body>
+<h1>List Box</h1>
+<select size="10">
+<option>Item 1</option>
+<option>Item 2</option>
+<option>Item 3</option>
+<option>Item 4</option>
+<option>Item 5</option>
+<option>Item 6</option>
+<option>Item 7</option>
+<option>Item 8</option>
+<option>Item 9</option>
+</select>
+<br />
+</body>
+</html>
